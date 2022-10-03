@@ -12,6 +12,9 @@ header{
 header nav{
     background: #026dc6;
     padding: 2px 0px;
+    border-radius: 5px;
+    width: 99%;
+    margin: 0px auto;
 }
 
 header nav ul li{
@@ -27,6 +30,55 @@ header nav form{
     margin-right: 20px;
 }
 
+header nav form input{
+    border-radius: 5px;
+}
+
+header nav form input[type="submit"]{
+    background: rgb(128, 203, 17);
+    border: 1px solid rgb(128, 203, 17);
+    color: white;
+}
+
 #logo{
     margin-top: -150px;
+}
+
+#seccion01{
+    margin-top: 10px;
+}
+
+#seccion01 article img{
+    width: 98%;
+    border: 5px solid rgba(150, 150, 150, 0.5);
+}
+
+#seccion01 article{
+    text-align: center;
+}
+
+#seccion02 article{
+    display: inline-block;
+    width: 32.8%;
+    vertical-align: top;
+}
+
+#seccion02 article input[type="submit"]{
+    background: white;
+    border-radius: 5px;
+    color: rgb(0, 128, 255);
+    padding: 10px;
+    margin-left: 125px;
+}
+
+.unaSeccion{
+    font-size: 4.5em;
+}
+
+.nito{
+    font-weight: bold;
+}
+
+.otraSeccion{
+    font-size: 2.5em;
 }
