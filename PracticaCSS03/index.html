@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica CSS 03</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <section id="logos">
+            <img src="img/logo.jpg" alt="Tutosytips" id="logoPrincipal">
+            <img src="img/thema.png" alt="" id="thema">
+        </section>
+
+        <section id="redes">
+            <article>
+                <img src="img/red1.png" alt="">
+            </article>
+            <article>
+                <img src="img/red2.png" alt="">
+            </article>
+            <article>
+                <img src="img/red3.png" alt="">
+            </article>
+        </section>
+
+        <nav class="degNaranja">
+            <ul class="letraBlanca letraMediana">
+                <li>INICIO</li>
+                <li>TUTORIALES</li>
+                <li>VIDEOS</li>
+                <li>JAVASCRIPT</li>
+                <li>HTML5 Y CSS3</li>
+                <li>RECURSOS</li>
+                <li>ADMINISTRADOR</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="contenedor">
+        <main>
+            <section id="main_seccion01">
+                <article>
+                    <img src="img/slider.jpg" alt="" id="slider">
+                </article>
+            </section>
+        
+            <section id="main_seccion02">
+                <article class="post">
+                    <span class="postTitulo">Título del Post</span>
+                    <img src="img/img-post.jpg" alt="">
+                    <div class="postContenido">
+                        <div class="postDatos letraChica">
+                            Por <span class="referencias">Admin</span>
+                            El <span class="referencias">30/05/2012</span>
+                            En <span class="referencias">Pruebas</span>
+                        </div>
+                        <br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum pretium nulla eget vestibulum. Donec iaculis at nulla vulputate scelerisque. In vitae quam nec urna suscipit gravida quis et mi. Maecenas ac nulla sit amet tortor tempus mollis. Vestibulum nec augue diam. 
+                        <input type="button" value="Leer Más...">
+                    </div>
+                </article>
+            </section>
+        </main>
+    
+        <aside>
+            <section id="as_section01" class="bordeGris">
+                <article>
+                    <span class="letraBlanca letraMediana degNaranja">Publicidad</span>
+                    <img src="img/publicidad.jpg" alt="">
+                    <img src="img/publicidad.jpg" alt="">
+                    <img src="img/publicidad.jpg" alt="">
+                    <img src="img/publicidad.jpg" alt="">
+                </article>
+            </section>
+    
+            <section id="as_section02" class="bordeGris">
+                <article class="bordeGrisClaro">
+                    <span class="letraBlanca letraMediana degNaranja">Buscador</span>
+                    <div id="buscador">
+                        <input type="search" placeholder="Search...">
+                        <input type="submit" value="Go" class="letraBlanca">
+                    </div>
+                </article>
+            </section>
+    
+            <section id="as_section03" class="bordeGris">
+                <article>
+                    <span class="letraBlanca letraMediana degNaranja">Categorías</span>
+                    <ul>
+                        <li>categoría 1</li>
+                        <li>categoría 2</li>
+                        <li>categoría 3</li>
+                        <li>categoría 4</li>
+                        <li>categoría 5</li>
+                        <li>categoría 6</li>
+                        <li>categoría 7</li>
+                    </ul>
+                </article>
+                
+            </section>
+        </aside>
+    </div>
+
+</body>
+
+</html>

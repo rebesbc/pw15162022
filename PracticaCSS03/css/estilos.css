@@ -1,0 +1,222 @@
+/* *************** */
+/* HEAD */
+/* *************** */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; /* 1em */
+    margin: 0px auto;
+    max-width: 1024px; /* 1080px 96% */
+    min-width: 1024px; /* 1080px 96% */
+}
+
+header section article{
+    display: inline-block;
+    margin-right: 16px;
+    width: 24px;
+}
+
+header section img{
+    display: block;
+}
+
+#logos{
+    margin-top: 15px;
+    margin-bottom: 37px;
+}
+
+#logoPrincipal{
+    width: 220px;
+}
+
+#redes{
+    float: right;
+    margin-top: -93px;
+    margin-right: 14px;
+}
+
+#thema{
+    width: 285px;
+}
+
+/* *************** */
+/* NAVIGATION BAR */
+/* *************** */
+header nav{
+    border-radius: 8px;
+}
+
+header nav ul{
+    margin-left: -15px;
+    margin-bottom: 0px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 20px 30px 20px 0px;
+}
+
+/* *************** */
+/* MAIN */
+/* *************** */
+main{
+    display: inline-block;
+    margin: 19px 5px 0px 13px;
+    width: 63%;
+}
+
+main section{
+    border-bottom: 1px solid gray;
+}
+
+#contenedor{
+    /* box-shadow: 0 -5px 5px -5px; */
+    box-shadow: 0px -3px 18px -8px rgb(115, 115, 115);
+    margin: 0px auto;
+    max-width: 96%;
+}
+
+#slider{
+    width: 97%;
+}
+
+#main_seccion02 article img{
+    border: 6px solid lightgray;
+    display: inline-block;
+    width: 30%;
+}
+
+/* *************** */
+/* ASIDE */
+/* *************** */
+aside{
+    display: inline-block;
+    margin-top: 43px;
+    text-align: center;
+    vertical-align: top;
+    width: 33%;
+}
+
+aside section article{
+    border: 1px solid gray;
+    border-radius: 17px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+aside section article span{
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: -3px;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+aside section article img{
+    display: inline-block;
+    width: 49%;
+}
+
+#buscador{
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    margin: 0px auto;
+    width: 80%;
+}
+
+aside section article div input{
+    border-radius: 20px;
+    font-size: 0.7em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+aside section article div input[type="search"]{
+    border: 1px solid gray;
+    line-height: 1.6em;
+    margin: 5px 0px;
+    text-indent: 5px;
+    width: 83%;
+}
+
+aside section article div input[type="submit"]{
+    aspect-ratio: 1;
+    background-color: darkgray;
+    border: 1.5px solid gray;
+    border-radius: 50%;
+    margin: 5px 0px;
+}
+
+aside section article ul{
+    text-align: left;
+}
+
+aside section article ul li{
+    border-bottom: 1.5px dotted rgb(81, 81, 81);
+    padding: 8px 0px 3px 0px;
+    width: 90%;
+}
+
+/* *************** */
+/* CLASES */
+/* *************** */
+.degNaranja{
+    background: linear-gradient(#fc770c 5%, #fcad7c 15%, #d33e00 50%); 
+}
+
+.letraBlanca{
+    color: white;
+}
+
+.letraChica{
+    font-size: 0.8em;
+}
+
+.letraMediana{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.post{
+    margin-bottom: 12px;
+}
+
+.postContenido{
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: top;
+    width: 65%;
+}
+
+.postContenido input[type="button"]{
+    background-color: rgb(199, 199, 199);
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 10px;
+    color: white;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin: 15px 0px 0px;
+    padding: 7px;
+}
+
+.postDatos{
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px -4px rgb(115, 115, 115);
+    margin-bottom: -5px;
+    padding: 5px 0px;
+    text-indent: 10px;
+}
+
+.postTitulo{
+    color: gray;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.referencias{
+    color: gray;
+    font-style: italic;
+}
