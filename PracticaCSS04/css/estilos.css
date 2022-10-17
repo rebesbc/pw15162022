@@ -1,0 +1,22 @@
+body{
+    margin: 0px auto;
+}
+
+header{
+    background-color: #235e92;
+}
+
+header img{
+    display: block;
+    margin: 0px auto;
+}
+
+header ul{
+    background-color: lightgray;
+    text-align: right;
+}
+
+header ul li{
+    display: inline-block;
+    vertical-align: bottom;
+}
