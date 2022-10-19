@@ -1,8 +1,11 @@
 body{
     background-color: #235e92;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px; /* 1em */
     margin: 0px auto;
 }
 
+/* HEADER */
 header{
     background-color: #235e92;
 }
@@ -21,25 +24,58 @@ header img{
     width: 99%;
 }
 
-nav ul{
+/* NAVIGATION BAR */
+nav{
     height: 75px;
-    margin-right: 20px;
+    padding: 20px 40px 20px 40px;
     text-align: right;
 }
 
 nav ul li{
+    cursor: pointer;
     display: inline-block;
-    padding: 30px 15px;
+    margin: 0px 20px;
     vertical-align: bottom;
 }
 
-nav ul li img{
-    width: 100px;
+#btnNotificaciones{
+    margin: 0px -135px 18px 0px;
+}
+
+#btnMensajes{
+    margin: 0px -115px 18px 100px;
+}
+
+/* BARRA LATERAL IZQUIERDA */
+aside{
+    display: inline-block;
+    width: 25%;
+}
+
+/* CUERPO DE PÁGINA */
+main{
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    width: 70%;
+}
+
+.letraBlanca{
+    color: white;
+}
+
+.letraGris{
+    color: #7e7777;
 }
 
 .notificacion{
     aspect-ratio: 1;
-    background-color: #235e92;
+    background-color: #347cb9;
     border-radius: 50%;
-
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.8em;
+    height: 20px;
+    text-align: center;
+    width: 20px;
 }
