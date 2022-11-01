@@ -1,0 +1,9 @@
+LESS Sass <--- pre procesadores de css
+TypeScript <--- pre procesador de JavaScript
+
+¿Qué es JavaScript? Lenguaje de programación
+Livescript fue su primer nombre
+
+¿Dónde va? <--- Cliente - HTML + CSS + JavaScript
+DOM = Document Object Model <--- página
+Object, Document
