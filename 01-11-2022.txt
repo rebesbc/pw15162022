@@ -7,3 +7,11 @@ Livescript fue su primer nombre
 ¿Dónde va? <--- Cliente - HTML + CSS + JavaScript
 DOM = Document Object Model <--- página
 Object, Document
+
+HTML CSS JavaScript
+App ---> Solicitud (Request) ---> Server
+
+Server ---> BD ---> Respuesta
+App <---
+JavaScript ??? XML, JSON
+JSON = JavaScript Object Notation
