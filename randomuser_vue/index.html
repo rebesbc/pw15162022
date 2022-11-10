@@ -5,6 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random User con Vue.js</title>
+    <style>
+        img{
+            border-radius: 100px;
+            vertical-align: middle;
+        }
+
+        #personasrandom{
+            background: rgb(40, 158, 126);
+            border-radius: 5px;
+            box-shadow: 8px 8px 8px rgb(184, 208, 214);
+            color: white;
+            display: inline-block;
+            margin: 15px;
+            padding: 15px;
+            width: 300px;
+        }
+
+        #personasrandom:hover{
+            -webkit-transform:scale(1.1);
+            transform: scale(1.1);
+            background: rgb(151, 68, 207);
+        }
+    </style>
 </head>
 <body>
     <div id="app">
@@ -15,10 +38,18 @@
             {{ mensaje }}
         </div>
         <br>
+        <input type="text" v-model="cantidad">
+        <br>
         <button @click.prevent="randomuser()">
             Random User
         </button>
+        <br>
         {{ nombre }}
+        <p></p>
+        <div v-for="persona in personas" id="personasrandom">
+            <img :src="persona.picture.large">
+            {{ persona.name.first }} {{ persona.name.last }}
+        </div>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
