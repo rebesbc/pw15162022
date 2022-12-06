@@ -1,10 +1,12 @@
 let express = require('express');
 let mysql = require('mysql');
 // Que el cliente Frontend pueda usar la API
-let cors = require('cors');
+const cors = require("cors");
+// let cors = require('cors');
 let app = express();
 // Recibir datos JSON
 app.use(express.json());
+app.use(cors());
 
 let puerto = 3000;
 app.listen(puerto, function(){
